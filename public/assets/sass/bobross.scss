@@ -1,0 +1,29 @@
+$colors: (
+  sap-green:         #0A3410,
+  alizarin-crimson:  #4E1500,
+  van-dyke-brown:    #221B15,
+  dark-sienna:       #5F2E1F,
+  midnight-black:    #000000,
+  prussian-blue:     #021E44,
+  phthalo-blue:      #0C0040,
+  phthalo-green:     #102E3C,
+  cadmium-yellow:    #FFEC00,
+  yellow-ochre:      #C79B00,
+  indian-yellow:     #FFB800,
+  bright-red:        #DB0000,
+  titanium-white:    #FFFFFF
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    background-color: $color;
+
+    &-text {
+      color: $color;
+    }
+
+    &-border {
+      border-color: $color;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "font-awesome/_animated";
+@import "font-awesome/_bordered-pulled";
+@import "font-awesome/_core";
+@import "font-awesome/_fixed-width";
+@import "font-awesome/_icons";
+@import "font-awesome/_larger";
+@import "font-awesome/_list";
+@import "font-awesome/_mixins";
+@import "font-awesome/_path";
+@import "font-awesome/_rotated-flipped";
+@import "font-awesome/_stacked";
+@import "font-awesome/_variables";
+
+// #fixed-header {
+//     background: url('/assets/img/escheresque_ste_@2X.png') center;
+//     position: fixed;
+//     z-index: 99999;
+//     color: #FFFFFF !important;
+// }
+
+body {
+    background: url('/assets/img/footer_lodyas.png');
+    color: #FFF !important;
+}
+
+body>.container {
+    position: relative;
+    z-index: 1000000;
+    top: 10px;
+}
+
+header {
+    position: fixed;
+    padding: 20px 0 8px 0;
+    color: #FFF !important;
+    background-image: url('/assets/img/restaurant.png');
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    position: fixed;
+    z-index:99999;
+    right:0;
+    left:0;
+    top:0;
+
+}
