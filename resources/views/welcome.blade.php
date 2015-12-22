@@ -19,7 +19,7 @@
                 <i class="fa fa-twitter fa-stack-1x"></i>
             </span></a>
             
-            <a role="button0" href="#"><span class="fa-stack fa-2x">
+            <a role="button" href="#"><span class="fa-stack fa-2x">
                 <i class="fa fa-square-o fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x"></i>
             </span></a>
