@@ -12,37 +12,45 @@
 // @import "font-awesome/_stacked";
 // @import "font-awesome/_variables";
 
-// #fixed-header {
-//     background: url('/assets/img/escheresque_ste_@2X.png') center;
-//     position: fixed;
-//     z-index: 99999;
-//     color: #FFFFFF !important;
-// }
-
 body {
     background: url('/assets/img/footer_lodyas.png');
     color: #FFF !important;
+    margin-right: 2.5%;
 }
 
 body>.container {
-    position: relative;
-    z-index: 1000000;
-    top: 10px;
+    width: 140%;
+    margin-right: 22.5%;
+    text-align: center;
+}
+
+#map {
+    height: 700px;
+    z-index: 1000000000;
+    margin-top: 20px;
+}
+
+#map-control {  }
+
+#search-bar {  }
+
+#search-icon { 
+    background: url('/assets/img/restaurant.png');
 }
 
 header {
     position: fixed;
-    padding: 20px 0 8px 0;
+    padding: 5px 0 0 0;
     color: #FFF !important;
     background-image: url('/assets/img/restaurant.png');
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5em;
     position: fixed;
-    z-index:99999;
-    right:0;
-    left:0;
-    top:0;
+    z-index: 2;
+    right: 0;
+    left: 0;
+    top: 0;
 }
 
 .btn-social {
@@ -52,6 +60,21 @@ header {
     }
 }
 
-.noDecorationAtoll {
+.title {
     text-decoration: none;
+    padding-top: 12px;
+    vertical-align: inherit;
+    
+}
+
+.noDecoration {
+    text-decoration: none !important;
+}
+
+a {
+    color: black;
+    :hover {
+        text-decoration: none !important;
+        color: #23395B;
+    }
 }

@@ -15,3 +15,13 @@ Route::get('/', [
     'as' => 'index', 
     'uses' => 'MainController@index'      
 ]);
+
+Route::get('/foodscout', [
+    'as' => 'foodScout', 
+    'uses' => 'MainController@foodScout'      
+]);
+
+Route::get('/angularone', [
+    'as' => 'angularOne', 
+    'uses' => 'MainController@angularOne'      
+]);

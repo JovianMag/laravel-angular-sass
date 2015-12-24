@@ -15,6 +15,16 @@ class MainController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('index');
+    }
+    
+    public function foodScout()
+    {
+        return view('foodScout/landing');
+    }
+    
+    public function angularOne()
+    {
+        return view('angularOne/landing');
     }
 }

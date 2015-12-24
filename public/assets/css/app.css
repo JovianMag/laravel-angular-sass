@@ -1,22 +1,31 @@
 body {
   background: url("/assets/img/footer_lodyas.png");
-  color: #FFF !important; }
+  color: #FFF !important;
+  margin-right: 2.5%; }
 
 body > .container {
-  position: relative;
-  z-index: 1000000;
-  top: 10px; }
+  width: 140%;
+  margin-right: 22.5%;
+  text-align: center; }
+
+#map {
+  height: 700px;
+  z-index: 1000000000;
+  margin-top: 20px; }
+
+#search-icon {
+  background: url("/assets/img/restaurant.png"); }
 
 header {
   position: fixed;
-  padding: 20px 0 8px 0;
+  padding: 5px 0 0 0;
   color: #FFF !important;
   background-image: url("/assets/img/restaurant.png");
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   position: fixed;
-  z-index: 99999;
+  z-index: 2;
   right: 0;
   left: 0;
   top: 0; }
@@ -26,7 +35,18 @@ header {
   .btn-social :hover {
     color: #606060; }
 
-.noDecorationAtoll {
-  text-decoration: none; }
+.title {
+  text-decoration: none;
+  padding-top: 12px;
+  vertical-align: inherit; }
+
+.noDecoration {
+  text-decoration: none !important; }
+
+a {
+  color: black; }
+  a :hover {
+    text-decoration: none !important;
+    color: #23395B; }
 
 /*# sourceMappingURL=app.css.map */
